@@ -18,7 +18,7 @@ namespace FibonacciSequence
 
         public void FibonacciSequence()
         {
-            Console.Write("Enter the number of elements to Print: **Number be greater than 2**: ");
+            Console.Write("Enter the number of elements to Print: **Number must be greater than 2**: ");
             numberOfElements = int.Parse(Console.ReadLine());
 
             if (numberOfElements < 2)
