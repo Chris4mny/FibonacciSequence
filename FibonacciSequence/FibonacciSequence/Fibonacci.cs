@@ -21,9 +21,11 @@ namespace FibonacciSequence
             Console.Write("Enter the number of elements to Print: **Number must be greater than 2**: ");
             numberOfElements = int.Parse(Console.ReadLine());
 
-            if (numberOfElements < 2)
+            if (numberOfElements <= 2)
             {
                 Console.WriteLine("Please enter a number greater than two");
+                
+                FibonacciSequence();
             }
             else
             {
